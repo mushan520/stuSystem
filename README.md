@@ -1,2 +1,6 @@
 # stuSystem
 vue开发的学生管理系统
+vue-cli脚手架搭建项目，cookie本地化存储；
+运用HTML5、CSS3实现页面及布局；运用axios请求接口数据，异步更新页面，在axios中全局配置baseurl和添加响应拦截器；
+使用了router来进行页面的路由控制；使用vuex进行状态管理，将组件中的共享数据存放在store中；
+封装turnpage翻页组件，父组件通过prop特性传递总页数和当前页数，子组件通过$emit抛出当前页信息，使用Vue.extend封装Toast弹窗组件，动态渲染接口返回的结果；
